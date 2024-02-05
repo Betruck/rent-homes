@@ -1,0 +1,50 @@
+.right{
+    float: right;
+    font-weight: bolder;
+    display: flex;
+    gap: 15px;
+}
+h1, a{
+    display: inline;
+}
+h1{
+    font-size:x-large;
+}
+.round{
+    background-color: green;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+}
+.big{
+    font-size: 70px;
+    color: rgb(33, 28, 106);
+}
+img{
+    float: right;
+}
+.main{
+    height:450px;
+    padding: 50px;
+    box-shadow: 10px 10px 40px rgb(33, 28, 106);
+    margin-top: 4%;
+}
+.top{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(98, 180, 195);
+}
+span{
+    color: rgb(116, 226, 145);
+}
+body{
+    background-color: rgb(238, 215, 5);
+}
+.one{
+    background-color: rgb(33, 28, 106);
+    color: rgb(238, 215, 5);
+}
+.two{
+    color: rgb(33, 28, 106);
+    background-color: rgb(238, 215, 5);
+    border: 1px rgb(33, 28, 106) solid;
+}
