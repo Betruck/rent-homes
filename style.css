@@ -7,9 +7,6 @@
 h1, a{
     display: inline;
 }
-h1{
-    font-size:x-large;
-}
 .round{
     background-color: green;
     display: inline-block;
@@ -24,9 +21,9 @@ img{
     float: right;
 }
 .main{
-    height:450px;
+    height: 460px;
     padding: 50px;
-    box-shadow: 10px 10px 40px rgb(33, 28, 106);
+    box-shadow: 50px 0px 50px rgb(33, 28, 106);
     margin-top: 4%;
 }
 .top{
@@ -47,4 +44,39 @@ body{
     color: rgb(33, 28, 106);
     background-color: rgb(238, 215, 5);
     border: 1px rgb(33, 28, 106) solid;
+}
+.small{
+    font-size: larger; 
+    font-family: 'Poor Story', system-ui;
+}
+
+@media (max-width:1000px) and (min-width:600px){
+    img{
+        height: 300px;
+        position: relative;
+        bottom: 50px;
+        right: 50px;
+    }
+    .main{
+        height: 100%;
+    }
+    .right{
+        display:flex;
+        flex-direction: column;
+    }
+}
+@media(max-width: 600px){
+    img{
+        height: 200px;
+        position: relative;
+        bottom: 50px;
+        right: 100px;
+    }
+    .main{
+        height: 100%;
+    }
+    .right{
+        display:flex;
+        flex-direction: column;
+    }
 }
